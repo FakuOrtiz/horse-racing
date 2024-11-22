@@ -1,0 +1,10 @@
+.select {
+  border-radius: 8px;
+  font-size: 16px;
+  height: 4.4rem;
+  padding: 0 2rem;
+  transition: 0.1s;
+  color: black;
+  border: 2px solid black;
+  background: transparent;
+}

@@ -1,0 +1,22 @@
+.button {
+  border-radius: 8px;
+  font-size: 16px;
+  height: 4.4rem;
+  padding: 0 2rem;
+  border: 2px solid #3f9f31;
+  transition: 0.1s;
+
+  &.primary {
+    background: #3f9f31;
+    color: white;
+  }
+
+  &.secondary {
+    background: white;
+    color: #3f9f31;
+  }
+
+  &:hover {
+    filter: brightness(0.93);
+  }
+}

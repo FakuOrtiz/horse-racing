@@ -1,0 +1,26 @@
+.main {
+  .title {
+    color: #3f9f31;
+    -webkit-text-stroke: 1px black;
+    font-family: "Times New Roman";
+  }
+
+  .buttonsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem;
+
+    @media screen and (width < 700px) {
+      flex-direction: column-reverse;
+      height: 10rem;
+    }
+
+    .twoButtonsContainer {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+  }
+}
