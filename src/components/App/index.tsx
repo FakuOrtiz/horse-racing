@@ -56,7 +56,10 @@ export function App() {
     setGame("NOT_STARTED");
   };
 
-  const getNewHorses = (length: number) => setHorses(generateHorses(length));
+  const getNewHorses = (length: number) => {
+    if (game !== "NOT_STARTED") setGame("NOT_STARTED");
+    setHorses(generateHorses(length));
+  };
 
   const resetHorses = () => setHorses((prev) => prev.map((horse) => ({ ...horse, position: 0 })));
 
