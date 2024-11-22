@@ -2,8 +2,7 @@
   min-width: 0;
   padding: 0;
   margin: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
-    "Helvetica Neue", sans-serif;
+  font-family: "Noto Serif", serif;
 }
 
 *,
@@ -27,7 +26,7 @@ body {
   flex-direction: column;
   align-items: center;
   position: relative;
-  min-height: 100lvh;
+  min-height: calc(100dvh - 4rem);
   width: 100%;
   background: burlywood;
 }
@@ -36,12 +35,9 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 4rem;
 }
 
-main,
-header,
-footer {
+main {
   padding: 1.6rem;
   width: 100%;
 }
